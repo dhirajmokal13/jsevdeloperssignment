@@ -1,0 +1,14 @@
+.welcomeTitle {
+    font-size:x-large;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1.2svh;
+}
+
+.welcomeSubTitle {
+    display: block;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 3vh;
+    width: 60vw
+}
