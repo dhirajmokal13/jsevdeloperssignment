@@ -47,7 +47,7 @@ export const Login = () => {
             formDataHandle("password", data.target.value)
         }
       />
-      <Button buttonBackgroundColor="#6c25ff" buttonTextColor="white" disable={!detailsValidations} onPress={()=>navigate("/register")}>Login</Button>
+      <Button buttonBackgroundColor="#6c25ff" buttonTextColor="white" disable={!detailsValidations} onPress={()=>navigate("/profile")}>Login</Button>
     </div>
   )
 }

@@ -1,12 +1,23 @@
 import React from 'react'
 import './RadioButton.css'
 
-export const RadioButton = ({ title, options, requiredIndication }) => {
+export const RadioButton = ({ title, options, requiredIndication, onChange, check }) => {
     const SingleButton = ({ name, uniqueIdentifier }) => {
         return (
             <div style={{ display: 'inline', marginRight: '2vw' }}>
-                <input className="radioBtn" type="radio" name={title} value={name} id={`${name}-${uniqueIdentifier}`} />
-                <label className="radioLabel" htmlFor={`${name}-${uniqueIdentifier}`}>{name}</label>
+                <input
+                    className="radioBtn"
+                    type="radio"
+                    onChange={onChange}
+                    name={title}
+                    checked={check === name}
+                    value={name}
+                    id={`${name}-${uniqueIdentifier}`}
+                />
+                <label
+                    className="radioLabel"
+                    htmlFor={`${name}-${uniqueIdentifier}`}
+                > {name} </label>
             </div>
         );
     }

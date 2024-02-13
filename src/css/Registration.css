@@ -12,3 +12,10 @@
     width: 50vw;
     margin-bottom: 3.5vh;
 }
+
+.registrationFooter {
+    position: absolute;
+    margin: auto 6vw;
+    width: 86%;
+    bottom: 1vh;
+}

@@ -1,0 +1,41 @@
+.profileContainer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.profileHeader {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding: 3vh 4vw;
+    font-size: large;
+    font-weight: 500;
+}
+
+.profileInfo {
+    margin: 3vh 6vw;
+    width: 86%;
+}
+
+.profileInfo span {
+    background-color: #6c25ff !important;
+    position: absolute;
+    padding: 0.2em 0.2em;
+    padding-bottom: 0em;
+    border-radius: 7vw;
+    bottom: 10px;
+    left: 50px;
+}
+
+.profilePic {
+    height: 11vh;
+    width: auto;
+    border-radius: 12vw;
+}
+
+.cameraIcon {
+    height: 3vh;
+    width: auto;
+    color: white;
+}
