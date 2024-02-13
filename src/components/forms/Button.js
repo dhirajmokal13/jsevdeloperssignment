@@ -1,20 +1,21 @@
 import React from 'react'
 
-export const Button = ({ children, buttonBackgroundColor, buttonTextColor }) => {
+export const Button = ({ children, buttonBackgroundColor, buttonTextColor, onPress, disable }) => {
 
     const buttonStyle = {
         width: '100%',
-        padding: '1.5vh',
-        borderRadius: '1.5vh',
+        padding: '2vh',
+        borderRadius: '1vh',
         outline: 'none',
-        fontWeight: 'bold',
-        backgroundColor: buttonBackgroundColor,
+        fontWeight: '700',
+        backgroundColor: disable ? '#cbcbcb' : buttonBackgroundColor,
         color: buttonTextColor,
-        borderColor: buttonBackgroundColor
+        border: 'none',
+        marginBottom: '1.2vh',
     }
 
     return (
-        <button style={buttonStyle}>
+        <button style={buttonStyle} onClick={onPress} disabled={disable}>
             {children}
         </button>
     )

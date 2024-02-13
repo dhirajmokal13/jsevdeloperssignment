@@ -1,0 +1,13 @@
+.registrationContainer {
+    margin-top: 5vh !important;
+    margin: auto 6vw;
+    width: 86%;
+}
+
+.registrationTitle {
+    font-size: x-large;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1.2svh;
+    width: 61vw;
+}

@@ -1,21 +1,21 @@
-.welcomeContainer {
-    position: absolute;
-    bottom: 2.5vh;
+.loginContainer {
+    margin-top: 5vh !important;
     margin: auto 6vw;
     width: 86%;
 }
 
-.welcomeTitle {
+.loginTitle {
     font-size: x-large;
     font-weight: 700;
     display: block;
     margin-bottom: 1.2svh;
+    width: 61vw;
 }
 
-.welcomeSubTitle {
+.loginSubTitle {
     display: block;
-    font-weight: 600;
-    color: #878a8d;
+    font-weight: 500;
+    color: #74777b;
     margin-bottom: 3vh;
     width: 64vw;
     letter-spacing: 0.8px;
