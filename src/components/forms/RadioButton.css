@@ -1,0 +1,18 @@
+.radioTitle {
+    display: block;
+    font-size: smaller;
+    margin-bottom: 0.6vh;
+}
+
+.radioBtn {
+    margin: auto 1vh auto 0;
+    accent-color: #6c25ff;
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.radioLabel {
+    margin-right: 1vh;
+    font-size: 0.9em;
+    vertical-align: top;
+}

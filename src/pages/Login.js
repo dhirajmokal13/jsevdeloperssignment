@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useNavigate } from "react-router-dom";
-import '../css/Login.css'
-import { Button } from '../components/forms/Button'
-import { InputBox } from '../components/forms/InputBox'
-import { Validations } from '../utils/Validations'
+import '../css/Login.css';
+import { Button } from '../components/forms/Button';
+import { InputBox } from '../components/forms/InputBox';
+import { Validations } from '../utils/Validations';
 
 export const Login = () => {
   const navigate = useNavigate();
